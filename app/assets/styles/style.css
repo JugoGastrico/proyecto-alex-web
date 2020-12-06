@@ -1,0 +1,10 @@
+body {
+  color: orange;
+}
+.pene {
+  color: aqua;
+  background-color: black;
+  &__corto {
+    color: blue;
+  }
+}
