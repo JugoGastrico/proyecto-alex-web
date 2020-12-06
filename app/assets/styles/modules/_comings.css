@@ -1,0 +1,29 @@
+.comings {
+  display: flex;
+  width: 100%;
+  height: 75vh;
+  background-color: white;
+}
+.comings__title {
+  margin: 50px 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  text-align: center;
+}
+
+/*Popup*/
+.iklan {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+.arrow {
+  width: 75px;
+  height: 75px;
+}

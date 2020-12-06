@@ -1,10 +1,6 @@
-body {
-  color: orange;
-}
-.pene {
-  color: aqua;
-  background-color: black;
-  &__corto {
-    color: blue;
-  }
-}
+@import "./base/_general.css";
+@import "modules/_navbar.css";
+@import "modules/_home.css";
+@import "modules/_about-me.css";
+@import "modules/_comings.css";
+@import "modules/_proyectos.css";
