@@ -1,4 +1,7 @@
 import "../styles/style.css";
+if (module.hot) {
+  module.hot.accept();
+}
 
 const navSlide = () => {
   const burger = document.querySelector(".burger");
