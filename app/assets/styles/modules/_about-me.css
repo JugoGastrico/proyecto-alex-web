@@ -7,9 +7,10 @@
     position: absolute;
     height: 900px;
     height: 600px;
-    border-radius: 30px;
+    border-radius: 0px;
     margin: 80px;
   }
+
   &__texto {
     position: relative;
     float: right;
@@ -33,6 +34,9 @@
     margin-top: 50px;
     letter-spacing: 1px;
   }
+}
+.high {
+  display: none;
 }
 
 .titulo {

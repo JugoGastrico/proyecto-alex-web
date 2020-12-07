@@ -20,14 +20,14 @@
 }
 
 .menu-links {
-  opacity: 0.9;
+  opacity: 1;
   margin-top: 00px;
   margin-bottom: 30px;
   position: fixed;
   right: 0;
   height: 104vh;
   width: 13%;
-  background-color: #0d0d0d;
+  background-color: rgba(0, 0, 0, 0.9);
   justify-content: space-around;
   display: flex;
   flex-direction: column;

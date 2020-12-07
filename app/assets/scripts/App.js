@@ -26,4 +26,4 @@ const navSlide = () => {
 };
 navSlide();
 
-Scrollbar.init.apply(document.querySelector("#scrollbar"));
+Scrollbar.init(document.querySelector("#scrollbar"));
